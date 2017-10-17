@@ -1,0 +1,25 @@
+{
+  "name": "modbus-tcp-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/modbus-client.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [],
+  "author": "Michal Molawka",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "int64-buffer": "^0.1.9",
+    "jsmodbus": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/bam-ftw/modbus-tcp-client"
+  }
+}
