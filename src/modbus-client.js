@@ -173,3 +173,4 @@ module.exports = class ModbusClient extends EventEmitter {
 module.exports.Types = types;
 module.exports.ModbusCoil = ModbusCoil;
 module.exports.ModbusRegister = ModbusRegister;
+module.exports.ModbusLayout = ModbusLayout;
